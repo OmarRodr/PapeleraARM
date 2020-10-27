@@ -1,0 +1,109 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="scripts/formula.js"></script>
+  </head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">MathWeb</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="registro.html">Registro</a>
+            </li>
+            
+              <li class="nav-item">
+                <a class="nav-link" href="contacto.html">Contacto</a>
+              </li>
+          </ul>
+          
+        </div>
+    </nav>
+    <center>
+    <h1>Ecuaciones de 2do Grado</h1>
+    
+    <p>Sabemos que una ecuación es una relación matemática entre números y letras. Normalmente se trabaja con ecuaciones en las que sólo hay una letra, llamada incógnita, que suele ser la x.
+
+        Resolver la ecuación consiste en encontrar un valor (o varios) que, al sustituirlo por la incógnita, haga que sea cierta la igualdad.
+        
+        Ese valor es la solución de la ecuación.</p>
+        
+        <p>Ejemplo: Resolver la ecuación    x − 1 = 0</p>
+        
+            <p>El número que hace que esa ecuación sea cierta es el 1, ya que 1 – 1 = 0, por lo tanto, 1 es la solución de la ecuación.</p>
+        
+                <p>Si en la ecuación la incógnita está elevada al cuadrado, decimos que es una ecuación de segundo grado (llamadas también ecuaciones cuadráticas), que se caracterizan porque pueden tener dos soluciones (aunque también una sola, e incluso ninguna).</p>
+        
+                    <p>Cualquier ecuación de segundo grado o cuadrática se puede expresar de la siguiente forma:
+        
+                                         ax2 + bx + c = 0</p>
+        
+                                         <p>Donde a, b y c son unos parámetros que habrá que sustituir por los números reales que corresponda en cada caso particular.</p>
+    </center>
+
+    <center>
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+          Demo Calculo
+        </button>
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Ingresa los valores </h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                
+                <form name="calculos" action="#">
+
+                  <div class="row">
+
+                    <div class="col">
+                      <input name="valorA" type="text" class="form-control" id="recipient-name"  placeholder="A">
+                    </div>
+                    <div class="col">
+                      <input name="valorB" type="text" class="form-control" id="recipient-name"  placeholder="B">
+                    </div>
+                    <div class="col">
+                      <input name="valorC" type="text" class="form-control" id="recipient-name"  placeholder="C">
+                    </div>
+                    
+                  </div>
+
+                 
+                  
+                </form>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                <button type="button" class="btn btn-primary" onclick="calcular()">Calcular</button>
+              </div>
+              <div class="modal-footer" id="resultado">
+
+              </div>
+            </div>
+          </div>
+        </div>
+    </center>
+    
+</body>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</html>

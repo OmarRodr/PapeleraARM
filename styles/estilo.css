@@ -1,0 +1,41 @@
+.menu a {
+    text-decoration:none;
+}
+
+.menu li{
+    display:inline-block;
+}
+
+.menu a:hover{
+    font-style: oblique;
+}
+#actual{
+    font-weight: bold;
+    text-decoration: none;
+    cursor: text;
+}
+
+.contenedor{
+    width: 80%;
+    height: 800px;
+    background-image: url("../images/numeros1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-size: x-large;
+    padding: 50px;
+}
+
+.table{
+    background-color: white;
+}
+
+form{
+    color: white;
+    text-align: left;
+}
+#emailHelp{
+
+    color: white !important;
+}
+
